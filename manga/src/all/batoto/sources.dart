@@ -2,10 +2,10 @@ import '../../../../model/source.dart';
 
 const _batotoVersion = "0.0.7";
 const _batotoSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/src/all/batoto/batoto.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/src/all/batoto/batoto.dart";
 
 String _iconUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/src/all/batoto/icon.png";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/src/all/batoto/icon.png";
 const _baseUrl = 'https://bato.to';
 const _isNsfw = true;
 

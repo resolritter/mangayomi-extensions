@@ -2,10 +2,10 @@ import '../../../../model/source.dart';
 
 const _yomirollVersion = "0.0.2";
 const _yomirollSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/anime/src/all/yomiroll/yomiroll.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/anime/src/all/yomiroll/yomiroll.dart";
 
 String _iconUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/anime/src/all/yomiroll/icon.png";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/anime/src/all/yomiroll/icon.png";
 
 Source get yomirollSource => _yomirollSource;
 Source _yomirollSource = Source(

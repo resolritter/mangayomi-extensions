@@ -9,5 +9,5 @@ Source _dopeboxSource = Source(
   typeSource: "dopeflix",
   isManga: false,
   iconUrl:
-      "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/anime/multisrc/dopeflix/src/dopebox/icon.png",
+      "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/anime/multisrc/dopeflix/src/dopebox/icon.png",
 );

@@ -41,7 +41,7 @@ import 'src/xcalibrscans/xcalibrscans.dart';
 
 const mangareaderVersion = "0.0.85";
 const mangareaderSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/multisrc/mangareader/mangareader.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/multisrc/mangareader/mangareader.dart";
 
 List<Source> get mangareaderSourcesList => _mangareaderSourcesList;
 List<Source> _mangareaderSourcesList = [

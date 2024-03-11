@@ -9,5 +9,5 @@ Source _aniwatchSource = Source(
   lang: "en",
   typeSource: "zorotheme",
   iconUrl:
-      "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/anime/multisrc/zorotheme/src/aniwatch/icon.png",
+      "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/anime/multisrc/zorotheme/src/aniwatch/icon.png",
 );

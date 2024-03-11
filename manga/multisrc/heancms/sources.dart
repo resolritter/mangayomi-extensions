@@ -5,7 +5,7 @@ import 'src/perfscan/perfscan.dart';
 
 const heancmsVersion = "0.0.7";
 const heancmsSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/multisrc/heancms/heancms.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/multisrc/heancms/heancms.dart";
 
 List<Source> get heancmsSourcesList => _heancmsSourcesList;
 List<Source> _heancmsSourcesList = [

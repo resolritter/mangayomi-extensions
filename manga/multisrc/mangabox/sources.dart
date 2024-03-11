@@ -6,7 +6,7 @@ import 'src/manganato/manganato.dart';
 
 const mangaboxVersion = "0.0.4";
 const mangaboxSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/multisrc/mangabox/mangabox.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/multisrc/mangabox/mangabox.dart";
 
 List<Source> get mangaboxSourcesList => _mangaboxSourcesList;
 List<Source> _mangaboxSourcesList = [

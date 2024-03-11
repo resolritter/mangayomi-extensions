@@ -166,7 +166,7 @@ import 'src/bakamh/bakamh.dart';
 
 const madaraVersion = "0.0.85";
 const madaraSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/multisrc/madara/madara.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/multisrc/madara/madara.dart";
 
 List<Source> get madaraSourcesList => _madaraSourcesList;
 List<Source> _madaraSourcesList = [

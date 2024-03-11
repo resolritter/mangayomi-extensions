@@ -5,9 +5,9 @@ const _baseUrl = 'https://mangadex.org';
 const _isNsfw = true;
 const _mangadexVersion = "0.0.7";
 const _mangadexSourceCodeUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/src/all/mangadex/mangadex.dart";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/src/all/mangadex/mangadex.dart";
 String _iconUrl =
-    "https://raw.githubusercontent.com/kodjodevf/mangayomi-extensions/$branchName/manga/src/all/mangadex/icon.png";
+    "https://raw.githubusercontent.com/resolritter/mangayomi-extensions/$branchName/manga/src/all/mangadex/icon.png";
 
 final _languages = [
   "ar",

@@ -20,7 +20,7 @@ This project uses the capabilities of the [dart_eval](https://pub.dev/packages/d
 - Any platform emulator
 
 ### Writing your extension
-1. Clone [Mangayomi](https://github.com/kodjodevf/mangayomi) next, read the README file to learn how to run the project.
+1. Clone [Mangayomi](https://github.com/resolritter/mangayomi) next, read the README file to learn how to run the project.
 2. Open the project then go to : 
 ```console
 lib
@@ -158,7 +158,7 @@ a.k.a. the Latest source entry point in the app (invoked by tapping on the "Late
 
 ### Filters
 
-The search flow have support to filters that can be added to a `FilterList` inside the `getFilterList` method. When the user changes the filter's state, they will be passed to the `search` method, and they can be iterated to create the request (by getting the `filter.state` value, where the type varies depending on the `Filter` used). You can check the filter types available [here](https://github.com/kodjodevf/mangayomi/blob/main/lib/eval/model/filter.dart) and in the table below.
+The search flow have support to filters that can be added to a `FilterList` inside the `getFilterList` method. When the user changes the filter's state, they will be passed to the `search` method, and they can be iterated to create the request (by getting the `filter.state` value, where the type varies depending on the `Filter` used). You can check the filter types available [here](https://github.com/resolritter/mangayomi/blob/main/lib/eval/model/filter.dart) and in the table below.
 
 | Filter | Description |
 | ------ | ----------- |
@@ -197,7 +197,7 @@ All control filters can have a default state set. It's usually recommended if th
         final status = parseStatus('ongoing', statusList);
         print(status); // Status.ongoing
         ```
-      Refer to [the values in the `MManga` model](https://github.com/kodjodevf/mangayomi/blob/main/lib/models/manga.dart).
+      Refer to [the values in the `MManga` model](https://github.com/resolritter/mangayomi/blob/main/lib/models/manga.dart).
     - During a backup, only `url` and `title` are stored. To restore the rest of the manga data, the app calls `getDetail`, so all fields should be (re)filled in if possible.
     - If a `MManga` is cached `getDetail` will be only called when the user does a manual update(Swipe-to-Refresh).
     - `MManga.chapters` contain list of all manga chapters.
@@ -223,11 +223,11 @@ All control filters can have a default state set. It's usually recommended if th
 
 ## Example sources that can help you understand how to create your source
 
-- [Example](https://github.com/kodjodevf/mangayomi-extensions/blob/main/anime/src/en/kisskh/kisskh.dart)
+- [Example](https://github.com/resolritter/mangayomi-extensions/blob/main/anime/src/en/kisskh/kisskh.dart)
   of Json API usage.
-- [Example](https://github.com/kodjodevf/mangayomi-extensions/blob/main/manga/src/en/mangahere/mangahere.dart)
+- [Example](https://github.com/resolritter/mangayomi-extensions/blob/main/manga/src/en/mangahere/mangahere.dart)
   of HTML parsing using xpath selector.
-- [Example](https://github.com/kodjodevf/mangayomi-extensions/blob/main/manga/multisrc/madara/madara.dart)
+- [Example](https://github.com/resolritter/mangayomi-extensions/blob/main/manga/multisrc/madara/madara.dart)
   of HTML parsing using HTML DOM selector.
 
   
@@ -272,7 +272,7 @@ Example:
 final String htmlString = '''
 <html lang="en">
 <body>
-<div><a href='https://github.com/kodjodevf'>author</a></div>
+<div><a href='https://github.com/resolritter'>author</a></div>
 <div class="head">div head</div>
 <div class="container">
     <table>
@@ -297,8 +297,8 @@ final String htmlString = '''
 
 
   List<String> xpathRes = xpath(htmlString,'//div/a/@href');
-  print(xpathRes); // [https://github.com/kodjodevf]
-  print(xpathRes.first); // https://github.com/kodjodevf
+  print(xpathRes); // [https://github.com/resolritter]
+  print(xpathRes.first); // https://github.com/resolritter
 
 ```
 ### HTML DOM selector
@@ -308,7 +308,7 @@ Example:
 final String htmlString = '''
 <html lang="en">
 <body>
-<div><a href='https://github.com/kodjodevf'>author</a></div>
+<div><a href='https://github.com/resolritter'>author</a></div>
 <div class="head">div head</div>
 <div class="container">
     <table>
@@ -333,11 +333,11 @@ final String htmlString = '''
 
 
   MDocument document = parseHtml(htmlString);
-  print(document.selectFirst("a").attr("href")); // https://github.com/kodjodevf
+  print(document.selectFirst("a").attr("href")); // https://github.com/resolritter
   print(document.selectFirst("td").text); // 1
 
 ```
-See [`MDocument` model](https://github.com/kodjodevf/mangayomi/blob/main/lib/eval/model/document.dart) and  [`MElement` model](https://github.com/kodjodevf/mangayomi/blob/main/lib/eval/model/element.dart) to see available methods.
+See [`MDocument` model](https://github.com/resolritter/mangayomi/blob/main/lib/eval/model/document.dart) and  [`MElement` model](https://github.com/resolritter/mangayomi/blob/main/lib/eval/model/element.dart) to see available methods.
 
 
 ### String utils
